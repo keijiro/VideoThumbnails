@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "com.unity.recorder": "3.0.3",
+    "com.unity.render-pipelines.high-definition": "12.1.6",
+    "jp.keijiro.metamesh": "1.0.1",
+    "jp.keijiro.metatex": "1.0.3",
+    "jp.keijiro.vfxgraphassets": "1.0.10"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ]
+}
