@@ -69,7 +69,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 256
+      m_SerializableObject: 512
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
@@ -333,7 +333,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 256
+      m_SerializableObject: 512
     m_Space: 2147483647
   m_Property:
     name: o
@@ -792,7 +792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
@@ -803,8 +803,8 @@ MonoBehaviour:
   - {fileID: 8926484042661614677}
   - {fileID: 8926484042661614685}
   dataType: 1
-  capacity: 16384
-  stripCapacity: 256
+  capacity: 32768
+  stripCapacity: 512
   particlePerStripCount: 64
   needsComputeBounds: 1
   boundsMode: 2
