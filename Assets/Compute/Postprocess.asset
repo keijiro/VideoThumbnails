@@ -102,6 +102,7 @@ MonoBehaviour:
   texture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+    dimension: 1
   sourceAlpha:
     m_OverrideState: 0
     m_Value: 1
