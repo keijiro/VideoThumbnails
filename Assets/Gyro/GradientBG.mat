@@ -138,7 +138,7 @@ Material:
     - _AlphaToMaskInspectorValue: 0
     - _Anisotropy: 0
     - _BlendMode: 0
-    - _Brightness: 0.626
+    - _Brightness: 0.556
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -183,6 +183,8 @@ Material:
     - _Metallic: 0
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
+    - _Noise_Displacement: 0.61
+    - _Noise_Frequency: 1.1
     - _NormalMapSpace: 0
     - _NormalScale: 1
     - _OpaqueCullMode: 2
@@ -196,7 +198,7 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _RenderQueueType: 1
-    - _Saturation: 0.92
+    - _Saturation: 0.925
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -248,7 +250,10 @@ Material:
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _Noise_Offset: {r: 2.5, g: 2.32, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Stripe: {r: 2, g: 2, b: 0, a: 0}
+    - _Stripe_Direction: {r: 2.14, g: 1.88, b: 0, a: 0}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}

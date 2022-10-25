@@ -4,9 +4,11 @@
 #define _EVALUATE_GRADIENT_HEADERS_
 #endif
 
-void EvaluateGradient_float(float2 uv, float2 stripe, float4x4 gradient, out float3 output)
+void EvaluateGradient_float
+  (float2 uv, float2 stripe, float freq, float disp, float2 offs, float4x4 gradient,
+   out float3 output)
 {
-    float d = floor(dot(uv, stripe));
-    float n = SimplexNoise(uv + d) / 2 + 0.5;
+    float d = floor(dot(uv, stripe) + SimplexNoise(uv * freq + offs) * disp);
+    float n = SimplexNoise(uv + d + offs + 100) / 2 + 0.5;
     output = CosineGradient(gradient, n);
 }

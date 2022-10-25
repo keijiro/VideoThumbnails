@@ -724,10 +724,10 @@ MonoBehaviour:
   _propertyName: _Gradient
   _gradient:
     R:
-      x: 0.5
-      y: 0.5
-      z: 0.3
-      w: 0.63
+      x: 0.47
+      y: 0.59
+      z: 0.61
+      w: 0.56
     G:
       x: 0.5
       y: 0.5
